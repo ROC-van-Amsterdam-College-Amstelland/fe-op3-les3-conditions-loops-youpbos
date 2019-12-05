@@ -1,9 +1,9 @@
 //javascript code
 
-function geefGetallen(){
+function geefGetallen() {
     var ingevultdgetal = document.getElementById("startgetal").value;
 
-    for(var teller = 1; teller <= 100; teller += 1){
+    for (var teller = 1; teller <= 100; teller += 1) {
 
         alert(teller * ingevultdgetal);
     }
