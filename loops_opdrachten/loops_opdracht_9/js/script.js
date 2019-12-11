@@ -1,6 +1,6 @@
 //javascript code
 
-for (teller = 1; teller <= 5; teller++) {
+for (teller = 0; teller <= 5; teller++) {
     console.log(teller);
 
     if (teller == 5) {
@@ -9,7 +9,7 @@ for (teller = 1; teller <= 5; teller++) {
 
 }
 
-for (teller = 5; teller >= 0; teller--) {
+for (teller = 4; teller >= 0; teller--) {
     console.log(teller);
 
     if (teller == 0) {
